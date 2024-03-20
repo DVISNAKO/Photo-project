@@ -10,6 +10,8 @@ import Partners from "../pages/Partners";
 import Price from "../pages/Price";
 import Grupas from "../pages/GalerryPages/Grupas";
 import Dzivnieki from "../pages/GalerryPages/Dzivnieki";
+import Pasakumi from "../pages/GalerryPages/Pasakumi";
+import Man from "../pages/GalerryPages/Man";
 
 const AppRoutes = () => {
   return (
@@ -23,6 +25,8 @@ const AppRoutes = () => {
         <Route path={ROUTES.SIEVEŠU} element={<Sievesu />} />
         <Route path={ROUTES.GRUPAS} element={<Grupas />} />
         <Route path={ROUTES.DZIVNIEKI} element={<Dzivnieki/>} />
+        <Route path={ROUTES.PASAKUMI} element={<Pasakumi/>} />
+        <Route path={ROUTES.VIRIESI} element={<Man/>} />
       </Routes>
     </div>
   );

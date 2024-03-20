@@ -5,7 +5,7 @@ import IMG1 from '../images/dzivnieki/d1.jpeg'
 import IMG2 from '../images/dzivnieki/d2.jpeg'
 import IMG3 from '../images/dzivnieki/d3.jpeg'
 import IMG4 from '../images/dzivnieki/d4.jpeg'
-import IMG5 from '../images/dzivnieki/d5.jpeg'
+import IMG5 from '../images/dzivnieki/d7.jpeg'
 import IMG6 from '../images/dzivnieki/d6.jpeg'
 
 const Dzivnieki = () => {

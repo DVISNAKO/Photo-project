@@ -6,5 +6,7 @@ export const ROUTES = {
     PARTNERS: 'partners',
     SIEVEŠU: 'sieviešu',
     GRUPAS: 'grupas',
-    DZIVNIEKI: 'dzivnieki'
+    DZIVNIEKI: 'dzivnieki',
+    PASAKUMI: 'pasakumi',
+    VIRIESI: 'viriesi',
 }
