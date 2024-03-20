@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../utils/routes";
+import IMG1 from './images/sieviesu/s1.jpeg'
+import IMG2 from './images/dzivnieki/d6.jpeg'
+import IMG3 from './images/viriesi/m5.jpeg'
+import IMG4 from './images/pasakumi/p1.jpeg'
 
 const Gallery = () => {
   return (
@@ -9,7 +13,7 @@ const Gallery = () => {
         <Link to={ROUTES.SIEVEŠU}>
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
-            src="https://images.unsplash.com/photo-1621012430307-b4774b78d3cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={IMG1}
           />
           <h2 className="flex justify-center mt-5 ">SIEVEŠU FOTO</h2>
         </Link>
@@ -18,8 +22,8 @@ const Gallery = () => {
         <Link to={ROUTES.DZIVNIEKI}>
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
-            src="https://images.unsplash.com/photo-1621012430307-b4774b78d3cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          />
+            src={IMG2}
+/>
           <h2 className="flex justify-center mt-5 ">DZĪVNIEKU FOTO</h2>
         </Link>
       </div>
@@ -27,8 +31,7 @@ const Gallery = () => {
         <Link to={ROUTES.VIRIESI}>
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
-            src="https://images.unsplash.com/photo-1621012430307-b4774b78d3cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          />
+            src={IMG3}          />
           <h2 className="flex justify-center mt-5 ">VĪRIEŠU FOTO</h2>
         </Link>
       </div>
@@ -36,8 +39,7 @@ const Gallery = () => {
         <Link to={ROUTES.PASAKUMI}>
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px] "
-            src="https://images.unsplash.com/photo-1621012430307-b4774b78d3cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          />
+            src={IMG4}           />
           <h2 className="flex justify-center mt-5 ">PASĀKUMU PHOTO</h2>
         </Link>
       </div>
