@@ -6,7 +6,7 @@ import IMG2 from '../images/pasakumi/p2.jpeg'
 import IMG3 from '../images/pasakumi/p3.jpeg'
 import IMG4 from '../images/pasakumi/p4.jpeg'
 import IMG5 from '../images/pasakumi/p5.jpeg'
-import IMG6 from '../images/pasakumi/p5.jpeg'
+import IMG6 from '../images/pasakumi/p6.jpeg'
 
 const Pasakumi = () => {
   return (
