@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../utils/routes";
-import IMG1 from '../images/grupas/g1.jpeg'
-import IMG2 from '../images/grupas/g2.jpeg'
-import IMG3 from '../images/grupas/g3.jpeg'
-import IMG4 from '../images/grupas/g4.jpeg'
-import IMG5 from '../images/grupas/g5.jpeg'
-import IMG6 from '../images/grupas/g6.jpeg'
+import IMG1 from '../images/pasakumi/p1.jpeg'
+import IMG2 from '../images/pasakumi/p2.jpeg'
+import IMG3 from '../images/pasakumi/p3.jpeg'
+import IMG4 from '../images/pasakumi/p4.jpeg'
+import IMG5 from '../images/pasakumi/p5.jpeg'
+import IMG6 from '../images/pasakumi/p5.jpeg'
 
 const Pasakumi = () => {
   return (
