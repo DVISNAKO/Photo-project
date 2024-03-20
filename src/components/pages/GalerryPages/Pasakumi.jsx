@@ -12,7 +12,7 @@ const Pasakumi = () => {
   return (
     <div className="flex justify-center items-center w-full h-full flex-col mx-5">
       <div className="flex my-6 text-[30px]">
-        <h2>GRUPAS FOTO</h2>
+        <h2>PASĀKUMU FOTO</h2>
       </div>
       <div className="flex justify-center items-center gap-5 mb-5 mx-5 ">
         <img
