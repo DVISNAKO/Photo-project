@@ -4,5 +4,7 @@ export const ROUTES = {
     PRICE: 'price',
     CONTACTS: 'contacts',
     PARTNERS: 'partners',
-    LOVESTORY: 'lovestory',
+    SIEVEŠU: 'sieviešu',
+    GRUPAS: 'grupas',
+    DZIVNIEKI: 'dzivnieki'
 }

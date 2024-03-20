@@ -6,7 +6,7 @@ import AppRoutes from "./components/Routes/AppRoutes";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col h-full">
+      <div className="flex flex-col h-screen">
         <div>
           <Header />
           <AppRoutes/>

@@ -1,12 +1,14 @@
 import React from "react";
+import IMG from '../pages/images/About/about.jpeg'
 
 const About = () => {
   return (
-    <div className="h-screen flex gap-3 mx-10 mt-10 mb-10 es:flex-col md:flex-row justify-center items-center">
+    <div className="es:my-20 mx-5 md:mx-5 mb-5 h-full flex gap-3 es:flex-col md:flex-row justify-center items-center">
       <div className="md:mr-5 w-1/2 flex justify-center flex-col items-center">
         <img
           className="h-[400px] min-w-[300px] object-cover hover:translate-y-2"
-          src="https://img.photolamus.com/8rV8bpS2/1280x1280/c/m/3b508621878779ae01f1c244eefbe9a9/e%C4%BC%C4%BCas-portreta-z%C4%ABm%C4%93jums-1280x1280.jpeg"
+          src={IMG}
+
         />
       </div>
       <div className="es:mt-10w-1/2 h-[400px] md:max-w-[550px] flex justify-center flex-col items-center">

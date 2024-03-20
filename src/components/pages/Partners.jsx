@@ -5,7 +5,7 @@ import { RiTiktokLine } from "react-icons/ri";
 
 const Partners = () => {
     return (
-        <div className="es:flex-col md:flex-row flex justify-center items-center my-10 w-screen">
+       <div className="es:flex-col md:flex-row flex justify-center items-center my-10 w-screen">
         <div className="flex justify-center items-center flex-col text-nowrap w-1/2 p-4">
         <h2 className="m-2 text-[25px]">About:</h2>
         <p className="m-2 text-wrap indent-5 max-w-[450px]"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur facere in magnam libero quo sequi tempora vitae! Commodi dolore eum quaerat! Quidem quo et eaque enim dolore illo molestiae esse.</p>
