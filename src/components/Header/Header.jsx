@@ -28,7 +28,7 @@ const Header = () => {
     <nav className="w-full flex items-center py-5 justify-around bg-gradient-to-r from-rose-300 to-pink-500">
       <div className="w-full flex justify-around items-center max-w-7x1 max-auto mx-6">
         <Link to={ROUTES.GALLERY} className="flex items-center ">
-        <img className="h-8" src={LOGO}/>
+        <img className="h-10" src={LOGO}/>
         </Link>
         <div className="hidden sm:flex flex-row gap-2">
           {menu.map((item) => (

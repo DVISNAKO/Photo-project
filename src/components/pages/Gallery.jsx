@@ -40,7 +40,7 @@ const Gallery = () => {
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px] "
             src={IMG4}           />
-          <h2 className="flex justify-center mt-5 ">PASĀKUMU PHOTO</h2>
+          <h2 className="flex justify-center mt-5 ">PASĀKUMU FOTO</h2>
         </Link>
       </div>
       <div className="cursor-pointer hover:translate-y-2 hover:text-orange-400 basis-1/4">
