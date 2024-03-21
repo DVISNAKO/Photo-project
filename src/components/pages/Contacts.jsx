@@ -1,7 +1,5 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa6";
-import { FaTelegramPlane } from "react-icons/fa";
-
 import { RiTiktokLine } from "react-icons/ri";
 
 const Contacts = () => {
@@ -10,18 +8,29 @@ const Contacts = () => {
       <div className="flex justify-center items-center flex-col text-nowrap w-1/2 p-4">
         <h2 className="m-2 text-[25px]">MY CONTACTS:</h2>
         <h2 className="m-2"> lai13@inbox.lv</h2>
-        <h2 className="m-2 border-2 p-3 rounded-xl hover:bg-slate-400"> <a target="_blank" href="https://t.me/lainevolcite">Написать в Телеграм</a></h2>
+        <h2 className="m-2 border-2 p-3 rounded-xl hover:bg-slate-400">
+          <a target="_blank" href="https://t.me/lainevolcite">
+            Написать в Телеграм
+          </a>
+        </h2>
         <hr className="h-1 w-20 m-3" />
         <h2 className="m-2 text-[25px]">My Social medias:</h2>
         <div className="flex gap-1 ml-3 cursor-pointer">
           <div className="hover:bg-slate-400 rounded-xl p-3 text-[30px]">
-          <a target="_blank" href="https://www.instagram.com/volcites_photos?igsh=cnJuam13anZtaGJ0&utm_source=qr"><FaInstagram /></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/volcites_photos?igsh=cnJuam13anZtaGJ0&utm_source=qr"
+            >
+              <FaInstagram />
+            </a>
           </div>
-          {/* <div className="hover:bg-slate-400 rounded-xl p-3 text-[30px]">
-          <FaTelegramPlane />
-          </div> */}
           <div className="hover:bg-slate-400 rounded-xl p-3 text-[30px]">
-           <a target="_blank" href="https://tiktok.com/@volcites_photos?_t=8kGdMatiX4L&_r=1"><RiTiktokLine /></a>
+            <a
+              target="_blank"
+              href="https://tiktok.com/@volcites_photos?_t=8kGdMatiX4L&_r=1"
+            >
+              <RiTiktokLine />
+            </a>
           </div>
         </div>
       </div>

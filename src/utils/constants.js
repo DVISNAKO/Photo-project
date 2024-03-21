@@ -20,3 +20,11 @@ export const packageData = [
       img: "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
     },
   ];
+
+  export const menu = [
+    { title: "Gallery", id: 1 },
+    { title: "About", id: 2 },
+    { title: "Price", id: 3 },
+    { title: "Contacts", id: 4 },
+    { title: "Partners", id: 5 },
+  ];

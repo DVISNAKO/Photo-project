@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../utils/routes";
-import IMG1 from './images/sieviesu/s1.jpeg'
-import IMG2 from './images/dzivnieki/d6.jpeg'
-import IMG3 from './images/viriesi/m5.jpeg'
-import IMG4 from './images/pasakumi/p1.jpeg'
+import IMG1 from "./images/sieviesu/s1.jpeg";
+import IMG2 from "./images/dzivnieki/d6.jpeg";
+import IMG3 from "./images/viriesi/m5.jpeg";
+import IMG4 from "./images/pasakumi/p1.jpeg";
 
 const Gallery = () => {
   return (
@@ -15,7 +15,7 @@ const Gallery = () => {
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
             src={IMG1}
           />
-          <h2 className="flex justify-center mt-5 ">SIEVEŠU FOTO</h2>
+          <h2 className="flex justify-center mt-5 ">SIEVIEŠU FOTO</h2>
         </Link>
       </div>
       <div className="cursor-pointer hover:translate-y-2 hover:text-orange-400 basis-1/4">
@@ -23,7 +23,7 @@ const Gallery = () => {
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
             src={IMG2}
-/>
+          />
           <h2 className="flex justify-center mt-5 ">DZĪVNIEKU FOTO</h2>
         </Link>
       </div>
@@ -31,7 +31,8 @@ const Gallery = () => {
         <Link to={ROUTES.VIRIESI}>
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
-            src={IMG3}          />
+            src={IMG3}
+          />
           <h2 className="flex justify-center mt-5 ">VĪRIEŠU FOTO</h2>
         </Link>
       </div>
@@ -39,7 +40,8 @@ const Gallery = () => {
         <Link to={ROUTES.PASAKUMI}>
           <img
             className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px] "
-            src={IMG4}           />
+            src={IMG4}
+          />
           <h2 className="flex justify-center mt-5 ">PASĀKUMU FOTO</h2>
         </Link>
       </div>
