@@ -12,6 +12,7 @@ import Dzivnieki from "../pages/GalerryPages/Dzivnieki";
 import Pasakumi from "../pages/GalerryPages/Pasakumi";
 import Man from "../pages/GalerryPages/Man";
 import Sasniegumi from '../pages/Sasniegumi'
+import Love from "../pages/GalerryPages/Love";
 
 const AppRoutes = () => {
   return (
@@ -27,6 +28,7 @@ const AppRoutes = () => {
         <Route path={ROUTES.DZIVNIEKI} element={<Dzivnieki/>} />
         <Route path={ROUTES.PASAKUMI} element={<Pasakumi/>} />
         <Route path={ROUTES.VIRIESI} element={<Man/>} />
+        <Route path={ROUTES.LOVE} element={<Love/>} />
       </Routes>
     </div>
   );

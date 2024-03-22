@@ -9,4 +9,5 @@ export const ROUTES = {
     DZIVNIEKI: 'dzivnieki',
     PASAKUMI: 'pasakumi',
     VIRIESI: 'viriesi',
+    LOVE: 'love',
 }
