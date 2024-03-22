@@ -11,11 +11,11 @@ import IMG6 from "../images/grupas/g6.jpeg";
 const Grupas = () => {
   const grupasImg1 = [{ img: IMG1 }, { img: IMG2 }, { img: IMG3 }];
   const grupasImg2 = [{ img: IMG4 }, { img: IMG5 }, { img: IMG6 }];
-  
+
   return (
     <div className="flex justify-center items-center w-full h-full flex-col mx-5">
       <div className="flex my-6 text-[30px]">
-        <h2>GRUPAS FOTO</h2>
+        <h2>ĢIMENES FOTOSESIJA</h2>
       </div>
       <div className="flex justify-center items-center gap-5 mb-5 mx-5 ">
         {grupasImg1.map((item) => (

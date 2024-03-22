@@ -1,7 +1,8 @@
-import IMG1 from "../components/pages/images/sieviesu/s1.jpeg";
-import IMG2 from "../components/pages/images/dzivnieki/d6.jpeg";
-import IMG3 from "../components/pages/images/viriesi/m5.jpeg";
-import IMG4 from "../components/pages/images/pasakumi/p1.jpeg";
+import IMG1 from "../components/pages/images/Gallery/ga1.jpeg";
+import IMG2 from "../components/pages/images/Gallery/ga2.jpeg";
+import IMG3 from "../components/pages/images/Gallery/ga3.jpeg";
+import IMG4 from "../components/pages/images/Gallery/ga4.jpeg";
+import IMG6 from "../components/pages/images/Gallery/ga6.jpeg";
 import { ROUTES } from "../utils/routes";
 
 // объект для пополнения страниц Pice, подолнять предложения на страницу
@@ -28,11 +29,11 @@ export const packageData = [
 
   //название кнопок меню
   export const menu = [
-    { title: "Gallery", id: 1 },
-    { title: "About", id: 2 },
-    { title: "Price", id: 3 },
-    { title: "Contacts", id: 4 },
-    { title: "Partners", id: 5 },
+    { title: "GALERIJA", id: 1 },
+    { title: "ABOUT", id: 2 },
+    { title: "CENAS", id: 3 },
+    { title: "KONTAKTI", id: 4 },
+    { title: "SASNIEGUMI", id: 5 },
   ];
 
   //вывод на страницу галереи
@@ -59,12 +60,12 @@ export const packageData = [
     },
     {
       title: "VIDEO PORT",
-      img: IMG4,
+      img: IMG6,
       route: ROUTES.PASAKUMI,
     },
     {
-      title: "GRUPAS FOTO",
-      img: IMG4,
+      title: "ĢIMENES FOTOSESIJA",
+      img: IMG6,
       route: ROUTES.GRUPAS,
     },
   ];
