@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../utils/routes";
-import IMG1 from "../images/sieviesu/s1.jpeg";
-import IMG2 from "../images/sieviesu/s2.jpeg";
-import IMG3 from "../images/sieviesu/s3.jpeg";
-import IMG4 from "../images/sieviesu/s4.jpeg";
-import IMG5 from "../images/sieviesu/s5.jpeg";
-import IMG6 from "../images/sieviesu/s6.jpeg";
+import IMG1 from "../images/sieviesu/siev1.jpeg";
+import IMG2 from "../images/sieviesu/siev2.jpeg";
+import IMG3 from "../images/sieviesu/siev3.jpeg";
+import IMG4 from "../images/sieviesu/siev4.jpeg";
+import IMG5 from "../images/sieviesu/siev5.jpeg";
+import IMG6 from "../images/sieviesu/siev6.jpeg";
 
 const Sievesu = () => {
-  const sieviesuIMG1 = [{ img: IMG1 }, { img: IMG2 }, { img: IMG3 }];
-  const sieviesuIMG2 = [{ img: IMG4 }, { img: IMG5 }, { img: IMG6 }];
+  const sieviesuIMG1 = [{ img: IMG6 }, { img: IMG2 }, { img: IMG1 }];
+  const sieviesuIMG2 = [{ img: IMG3 }, { img: IMG5 }, { img: IMG4 }];
 
   return (
     <div className="flex justify-center items-center w-full h-full flex-col mx-5">

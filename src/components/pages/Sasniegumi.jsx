@@ -9,7 +9,6 @@ import IMG3 from "../pages/images/sasniegumi/sa3.jpeg";
 const Sasniegumi = () => {
   return (
     <div className="es:mx-5 flex flex-col gap-5 mt-10">
-      <h2 className="flex justify-center">FOTOGRĀFIJAS, KAS PARĀDĪJA ŽURNĀLĀ</h2>
       <div className="flex flex-row gap-5">
         <img
           className="w-1/2 max-h-max-h-[600px] max-w-[500px] object-cover hover:translate-y-2"

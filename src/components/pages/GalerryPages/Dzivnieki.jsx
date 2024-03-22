@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../utils/routes";
-import IMG1 from "../images/dzivnieki/d1.jpeg";
-import IMG2 from "../images/dzivnieki/d2.jpeg";
+import IMG1 from "../images/dzivnieki/dz8.jpeg";
+import IMG2 from "../images/dzivnieki/dz9.jpeg";
 import IMG3 from "../images/dzivnieki/d3.jpeg";
 import IMG4 from "../images/dzivnieki/d4.jpeg";
 import IMG5 from "../images/dzivnieki/d7.jpeg";
 import IMG6 from "../images/dzivnieki/d6.jpeg";
 
 const Dzivnieki = () => {
-  const dzivniekiImG1 = [{ img: IMG2 }, { img: IMG5 }, { img: IMG6 }];
+  const dzivniekiImG1 = [{ img: IMG2 }, { img: IMG6 }, { img: IMG5 }];
   const dzivniekiImG2 = [{ img: IMG1 }, { img: IMG4 }, { img: IMG3 }];
 
   return (
