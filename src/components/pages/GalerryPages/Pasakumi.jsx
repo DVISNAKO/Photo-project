@@ -11,7 +11,7 @@ import IMG6 from "../images/pasakumi/p6.jpeg";
 const Pasakumi = () => {
   const pasakumiIMG1 = [{ img: IMG1 }, { img: IMG2 }, { img: IMG3 }];
   const pasakumiIMG2 = [{ img: IMG4 }, { img: IMG5 }, { img: IMG6 }];
-  
+
   return (
     <div className="flex justify-center items-center w-full h-full flex-col mx-5">
       <div className="flex my-6 text-[30px]">
@@ -35,7 +35,7 @@ const Pasakumi = () => {
       </div>
       <div className="mb-5 hover:text-orange-200">
         <button>
-          <Link to={ROUTES.GALLERY}>Back to gallery</Link>
+          <Link to={ROUTES.GALERIJA}>Back to gallery</Link>
         </button>
       </div>
     </div>
