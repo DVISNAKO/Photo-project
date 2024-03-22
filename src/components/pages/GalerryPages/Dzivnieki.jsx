@@ -35,7 +35,7 @@ const Dzivnieki = () => {
       </div>
       <div className="mb-5 hover:text-orange-200">
         <button>
-          <Link to={ROUTES.GALLERY}>Back to gallery</Link>
+          <Link to={ROUTES.GALERIJA}>Back to gallery</Link>
         </button>
       </div>
     </div>

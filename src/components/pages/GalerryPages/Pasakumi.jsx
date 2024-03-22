@@ -28,7 +28,7 @@ const Pasakumi = () => {
       <div className="flex justify-center items-center gap-5 mb-5 mx-5">
         {pasakumiIMG2.map((item) => (
           <img
-            className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
+            className="w-1/3 max-h-[400px] max-w-[350px] object-cover hover:translate-y-2"
             src={item.img}
           />
         ))}

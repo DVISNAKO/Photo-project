@@ -42,7 +42,7 @@ export const packageData = [
     {
       title: "SIEVIEŠU FOTO",
       img: IMG1,
-      route: ROUTES.SIEVEŠU,
+      route: ROUTES.SIEVIEŠU,
     },
     {
       title: "DZĪVNIEKU FOTO",
