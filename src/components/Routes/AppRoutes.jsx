@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { ROUTES } from "../../utils/routes";
 
 import About from "../pages/About";
@@ -29,6 +29,7 @@ const AppRoutes = () => {
         <Route path={ROUTES.PASAKUMI} element={<Pasakumi/>} />
         <Route path={ROUTES.VIRIESI} element={<Man/>} />
         <Route path={ROUTES.LOVE} element={<Love/>} />
+        <Route path="*" element={<Navigate to={ROUTES.GALERIJA} />} />
       </Routes>
     </div>
   );
