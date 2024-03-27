@@ -7,6 +7,7 @@ import IMG3 from "../images/dzivnieki/d3.jpeg";
 import IMG4 from "../images/dzivnieki/d4.jpeg";
 import IMG5 from "../images/dzivnieki/d7.jpeg";
 import IMG6 from "../images/dzivnieki/d6.jpeg";
+import ButtonBack from "../../ButtonBack/ButtonBack";
 
 const Dzivnieki = () => {
   const dzivniekiImG1 = [{ img: IMG2 }, { img: IMG6 }, { img: IMG5 }];
@@ -33,10 +34,8 @@ const Dzivnieki = () => {
           />
         ))}
       </div>
-      <div className="mb-5 hover:text-orange-200">
-        <button>
-          <Link to={ROUTES.GALERIJA}>Back to gallery</Link>
-        </button>
+      <div className="mb-5 hover:text-pink-400">
+      <ButtonBack/>
       </div>
     </div>
   );

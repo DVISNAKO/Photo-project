@@ -7,6 +7,7 @@ import IMG3 from "../images/viriesi/m3.jpeg";
 import IMG4 from "../images/viriesi/m7.jpeg";
 import IMG5 from "../images/viriesi/m5.jpeg";
 import IMG6 from "../images/viriesi/m6.jpeg";
+import ButtonBack from "../../ButtonBack/ButtonBack";
 
 const Man = () => {
   const virisuIMG1 = [{ img: IMG2 }, { img: IMG5 }, { img: IMG6 }];
@@ -33,10 +34,8 @@ const Man = () => {
           />
         ))}
       </div>
-      <div className="mb-5 hover:text-orange-200">
-        <button>
-          <Link to={ROUTES.GALERIJA}>Back to gallery</Link>
-        </button>
+      <div className="mb-5 hover:text-pink-400">
+      <ButtonBack/>
       </div>
     </div>
   );

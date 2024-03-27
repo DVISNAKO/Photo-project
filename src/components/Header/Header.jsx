@@ -26,9 +26,9 @@ const Header = () => {
           {menu.map((item) => (
             <Link
               to={ROUTES[item.title.toUpperCase()]}
-              className={`mr-2 ${
+              className={`mr-2 hover:underline underline-offset-1 ${
                 activeMenu === item.title ? "text-pink-200" : ""
-              }`}
+              } `}
               onClick={() => handleMenuClick(item.title)}
               key={item.id}
             >
@@ -59,7 +59,7 @@ const Header = () => {
                   <Link
                     onClick={() => handleMenuClick(item.title)}
                     to={ROUTES[item.title.toUpperCase()]}
-                    className={`mr-2 ${
+                    className={`mr-2 hover:underline underline-offset-1 ${
                       activeMenu === item.title ? "text-pink-200" : ""
                     }`}
                     key={item.id}

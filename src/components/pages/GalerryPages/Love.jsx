@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../utils/routes";
+import ButtonBack from "../../ButtonBack/ButtonBack";
 import IMG1 from "../images/love/lo1.jpeg";
 import IMG2 from "../images/love/lo2.jpeg";
 import IMG3 from "../images/love/lo3.jpeg";
@@ -33,10 +34,8 @@ const Love = () => {
           />
         ))}
       </div>
-      <div className="mb-5 hover:text-orange-200">
-        <button>
-          <Link to={ROUTES.GALERIJA}>Back to gallery</Link>
-        </button>
+      <div className="mb-5 hover:text-pink-400">
+      <ButtonBack/>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Gallery = () => {
   return (
     <div className="flex justify-center items-center h-full my-10 flex-wrap gap-5 mx-10 border-black">
       {galeryData.map((item) => (
-        <div key={item.id} className="cursor-pointer hover:translate-y-2 hover:text-orange-400 basis-1/4">
+        <div key={item.id} className="cursor-pointer hover:translate-y-2 hover:text-pink-400 basis-1/4">
           <Link to={item.route}>
             <img
               className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
