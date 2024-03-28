@@ -34,7 +34,7 @@ const Sievesu = () => {
           />
         ))}
       </div>
-      <div className="mb-5 hover:text-pink-400">
+      <div className="mb-5 hover:text-var(--color-pink)">
        <ButtonBack/>
       </div>
     </div>

@@ -7,3 +7,7 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  :root {
+    --color-pink: rgb(251 113 133);
+  }

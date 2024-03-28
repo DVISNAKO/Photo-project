@@ -11,7 +11,7 @@ const Contacts = () => {
         <h2 className="m-2"> lai13@inbox.lv</h2>
         <h2 className="m-2 border-2 p-3 rounded-xl hover:bg-slate-400">
           <a target="_blank" href="https://t.me/lainevolcite">
-            Написать в Телеграм
+          Saziņai telegramā
           </a>
         </h2>
         <hr className="h-1 w-20 m-3" />
