@@ -5,17 +5,19 @@ import IMG4 from "../components/pages/images/Gallery/ga4.jpeg";
 import IMG5 from "../components/pages/images/Gallery/ga5.jpeg";
 import IMG6 from "../components/pages/images/Gallery/ga6.jpeg";
 import { ROUTES } from "../utils/routes";
+import PRICE1 from '../components/pages/images/Price/pa1.jpeg'
+import PRICE2 from '../components/pages/images/Price/pa2.jpeg'
 
 // объект для пополнения страниц Pice, подолнять предложения на страницу
 export const packageData = [
     {
-      title: "Package 1",
-      idea: "idea about ......",
-      time: "~1,5h",
-      curruncy: "20 photo",
-      gift: "gift will be",
-      price: "200 euro",
-      img: "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
+      title: "Individuālā fotosesija",
+      idea: "ideja",
+      time: "~2h",
+      curruncy: "15 fotogrāfijas",
+      price: "60€",
+      img1: PRICE1,
+      img2: PRICE2,
     },
     {
       title: "Package 2",
@@ -24,7 +26,8 @@ export const packageData = [
       curruncy: "20 photo",
       gift: "gift will be",
       price: "200 euro",
-      img: "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
+      img1: PRICE1,
+      img2: PRICE2,
     },
   ];
 

@@ -5,6 +5,7 @@ import { RiTiktokLine } from "react-icons/ri";
 import IMG1 from "../pages/images/sasniegumi/sa1.jpeg";
 import IMG2 from "../pages/images/sasniegumi/sa2.jpeg";
 import IMG3 from "../pages/images/sasniegumi/sa3.jpeg";
+import IMG4 from "../pages/images/sasniegumi/sa4.jpeg";
 
 const Sasniegumi = () => {
   return (
@@ -20,10 +21,16 @@ const Sasniegumi = () => {
         />
       </div>
 
-      <div className="flex justify-center mb-10">
+      <div className="flex justify-center">
         <img
           className="w-full max-h-auto max-w-[1000px] object-cover hover:translate-y-2"
           src={IMG3}
+        />
+      </div>
+      <div className="flex justify-center mb-10">
+        <img
+          className="w-full max-h-auto max-w-[1000px] object-cover hover:translate-y-2"
+          src={IMG4}
         />
       </div>
     </div>
