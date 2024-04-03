@@ -19,7 +19,7 @@ const AppRoutes = () => {
     <div className="flex w-full justify-center">
       <Routes>
         <Route path={ROUTES.GALERIJA} index element={<Gallery />} />
-        <Route path={ROUTES.ABOUT} element={<About />} />
+        <Route path={ROUTES.PAR_MANI} element={<About />} />
         <Route path={ROUTES.CENAS} element={<Price />} />
         <Route path={ROUTES.KONTAKTI} element={<Contacts />} />
         <Route path={ROUTES.SASNIEGUMI} element={<Sasniegumi />} />

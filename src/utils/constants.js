@@ -34,7 +34,7 @@ export const packageData = [
   //название кнопок меню
   export const menu = [
     { title: "GALERIJA", id: 1 },
-    { title: "ABOUT", id: 2 },
+    { title: "PAR_MANI", id: 2 },
     { title: "CENAS", id: 3 },
     { title: "KONTAKTI", id: 4 },
     { title: "SASNIEGUMI", id: 5 },

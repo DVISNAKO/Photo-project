@@ -1,6 +1,6 @@
 export const ROUTES = {
     GALERIJA: '/',
-    ABOUT: 'about',
+    PAR_MANI: 'par-mani',
     CENAS: 'cenas',
     KONTAKTI: 'kontakti',
     SASNIEGUMI: 'sasniegumi',

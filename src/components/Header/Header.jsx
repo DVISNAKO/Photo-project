@@ -32,7 +32,7 @@ const Header = () => {
               onClick={() => handleMenuClick(item.title)}
               key={item.id}
             >
-              {item.title}
+              {item.title.replace('_', ' ')}
             </Link>
           ))}
         </div>
