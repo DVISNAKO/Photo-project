@@ -11,4 +11,5 @@
     animation-name: LogoAnimation;
     animation-duration: 4s;
     animation-iteration-count: 1;
+    animation-delay: 3s;
 }
