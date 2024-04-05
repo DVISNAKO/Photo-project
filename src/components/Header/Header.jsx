@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { ROUTES } from "../../utils/routes";
 import { CiMenuBurger } from "react-icons/ci";
 import { CiMenuFries } from "react-icons/ci";
-import { menu } from '../../utils/constants';
+import { menu } from "../../utils/constants";
 import LOGO from "./logo.png";
-
+import "./Header.css";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -19,8 +19,8 @@ const Header = () => {
   return (
     <nav className="w-full flex items-center py-5 justify-around bg-gradient-to-r from-rose-300 to-pink-500">
       <div className="w-full flex justify-around items-center max-w-7x1 max-auto mx-6">
-        <Link to={ROUTES.GALERIJA} className="flex items-center ">
-          <img className="h-10" src={LOGO} />
+        <Link to={ROUTES.GALERIJA} className="flex items-center">
+          <img className="h-10 LogoAnimation" src={LOGO} />
         </Link>
         <div className="hidden sm:flex flex-row gap-2">
           {menu.map((item) => (
@@ -32,7 +32,7 @@ const Header = () => {
               onClick={() => handleMenuClick(item.title)}
               key={item.id}
             >
-              {item.title.replace('_', ' ')}
+              {item.title.replace("_", " ")}
             </Link>
           ))}
         </div>
@@ -64,7 +64,7 @@ const Header = () => {
                     }`}
                     key={item.id}
                   >
-                     {item.title.replace('_', ' ')}
+                    {item.title.replace("_", " ")}
                   </Link>
                 ))}
               </div>
