@@ -8,7 +8,7 @@ const singlePrice = ({ packageData }) => {
     <>
       <div className="flex justify-center items-center mt-5 flex-col mx-5">
         <h2 className="mb-5 font-bold">{title}</h2>
-        <div className="flex flex-row gap-5">
+        <div className="flex justify-center flex-row gap-5 mx-5">
           <img
             className="w-1/2 max-h-[400px] max-w-[300px] object-cover hover:translate-y-2"
             src={img1}

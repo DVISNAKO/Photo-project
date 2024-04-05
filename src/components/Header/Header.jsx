@@ -64,7 +64,7 @@ const Header = () => {
                     }`}
                     key={item.id}
                   >
-                    {item.title}
+                     {item.title.replace('_', ' ')}
                   </Link>
                 ))}
               </div>

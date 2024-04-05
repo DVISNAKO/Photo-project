@@ -10,7 +10,7 @@ import IMG4 from "../pages/images/sasniegumi/sa4.jpeg";
 const Sasniegumi = () => {
   return (
     <div className="es:mx-5 flex flex-col gap-5 mt-10">
-      <div className="flex flex-row gap-5">
+      <div className="flex justify-center flex-row gap-5 mx-5">
         <img
           className="w-1/2 max-h-max-h-[600px] max-w-[500px] object-cover hover:translate-y-2"
           src={IMG1}

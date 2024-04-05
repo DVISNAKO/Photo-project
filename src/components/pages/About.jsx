@@ -3,9 +3,9 @@ import IMG from "../pages/images/About/about.jpeg";
 
 const About = () => {
   return (
-    <div className="es:my-20 mx-10 md:mx-5 mb-5 h-full flex gap-5 es:flex-col md:flex-row justify-center items-center">
-      <div className="es:mt-10w-1/2 h-[400px] md:max-w-[550px] flex justify-center flex-col items-center">
-        <h2 className="text-xl">Prieks iepazīties, mani sauc Laine!</h2>
+    <div className="es:my-10 mx-5 md:mx-10 mb-5 h-full flex gap-5 es:flex-col md:flex-row justify-center items-center">
+      <div className="es:mt-10 w-1/2 h-[400px] md:max-w-[550px] mr-5 flex justify-center flex-col items-center">
+        <h2 className="text-xl font-bold">Prieks iepazīties, mani sauc Laine!</h2>
         <br />
         <p className="indent-5 text-lg">
           Es esmu pabeigusi Rēzeknes Mākslas un dizaina vidusskolu, kurā ieguvu
@@ -15,9 +15,9 @@ const About = () => {
           rāmītī ir katram otrajam.
         </p>
       </div>
-      <div className="md:mr-5 w-1/2 flex justify-center flex-col items-center">
+      <div className="es:mt-10 md:mr-5 w-1/2 flex justify-center flex-col items-center">
         <img
-          className="h-[400px] min-w-[300px] object-cover hover:translate-y-2"
+          className="h-[400px] min-w-[450px] object-cover hover:translate-y-2"
           src={IMG}
         />
       </div>
