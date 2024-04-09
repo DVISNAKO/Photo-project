@@ -1,18 +1,33 @@
+import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import AppRoutes from "./components/Routes/AppRoutes";
+import { LanguageState } from "./utils/context";
 
 function App() {
+  const [language, setLanguage] = useState(
+    JSON.parse(localStorage.getItem("languageStatus")) || false
+  );
+
+  const languageStatus = language;
+
+  const toggleLanguage = () => {
+    setLanguage(!language);
+    localStorage.setItem("languageStatus", JSON.stringify(language));
+  };
+
   return (
     <BrowserRouter>
-      <div className="flex flex-col h-screen">
-        <div>
-          <Header />
-          <AppRoutes/>
+      <LanguageState.Provider value={[language, setLanguage]}>
+        <div className="flex flex-col h-screen">
+          <div>
+            <Header language={language} toggleLanguage={toggleLanguage} />
+            <AppRoutes />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </LanguageState.Provider>
     </BrowserRouter>
   );
 }

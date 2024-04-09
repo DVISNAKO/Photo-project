@@ -12,6 +12,8 @@ import PRICE2 from '../components/pages/images/Price/pa2.jpeg'
 export const packageData = [
     {
       title: "Individuālā fotosesija",
+      titleRus: 'Индивидуальная фотосессия',
+      ideaRus: 'идея',
       idea: "ideja",
       time: "~2h",
       curruncy: "15 fotogrāfijas",
@@ -20,14 +22,15 @@ export const packageData = [
       img2: PRICE2,
     },
     {
-      title: "Package 2",
-      idea: "idea about ......",
-      time: "~2h",
-      curruncy: "20 photo",
-      gift: "gift will be",
-      price: "200 euro",
-      img1: PRICE1,
-      img2: PRICE2,
+        title: "Individuālā fotosesija",
+        titleRus: 'Индивидуальная фотосессия',
+        ideaRus: 'идея',
+        idea: "ideja",
+        time: "~2h",
+        curruncy: "15 fotogrāfijas",
+        price: "60€",
+        img1: PRICE1,
+        img2: PRICE2,
     },
   ];
 
@@ -40,35 +43,49 @@ export const packageData = [
     { title: "SASNIEGUMI", id: 5 },
   ];
 
+  export const menuRUS = [
+    { title: "ГАЛЕРЕЯ", id: 1 },
+    { title: "ОБО МНЕ", id: 2 },
+    { title: "ЦЕНЫ", id: 3 },
+    { title: "КОНТАКТЫ", id: 4 },
+    { title: "ДОСТЯЖЕНИЯ", id: 5 },
+  ]
+
   //вывод на страницу галереи
   export const galeryData = [
     {
       title: "SIEVIEŠU FOTO",
+      titleRus: "ЖЕНСКИЕ ФОТО",
       img: IMG1,
       route: ROUTES.SIEVIEŠU,
     },
     {
       title: "DZĪVNIEKU FOTO",
+      titleRus: "ФОТО ЖИВОТНЫХ",
       img: IMG2,
       route: ROUTES.DZIVNIEKI,
     },
     {
       title: "VĪRIEŠU FOTO",
+      titleRus: "МУЖСКИЕ ФОТО",
       img: IMG3,
       route: ROUTES.VIRIESI,
     },
     {
       title: "PASĀKUMU FOTO",
+      titleRus: "ФОТО МЕРОПРИЯТИЙ",
       img: IMG4,
       route: ROUTES.PASAKUMI,
     },
     {
       title: "LOVE STORY",
+      titleRus: "ФОТО ИСТОРИЙ",
       img: IMG5,
       route: ROUTES.LOVE,
     },
     {
       title: "ĢIMENES FOTOSESIJA",
+      titleRus: "СЕМЕЙНЫЕ ФОТО",
       img: IMG6,
       route: ROUTES.GRUPAS,
     },

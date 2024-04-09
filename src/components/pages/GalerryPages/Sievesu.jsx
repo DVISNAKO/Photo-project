@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { LanguageState } from "../../../utils/context";
 import { ROUTES } from "../../../utils/routes";
 import ButtonBack from "../../ButtonBack/ButtonBack";
 import IMG1 from "../images/sieviesu/siev1.jpeg";
@@ -10,13 +11,14 @@ import IMG5 from "../images/sieviesu/siev5.jpeg";
 import IMG6 from "../images/sieviesu/siev6.jpeg";
 
 const Sievesu = () => {
+  const [language, setLanguage] = useContext(LanguageState);
   const sieviesuIMG1 = [{ img: IMG6 }, { img: IMG2 }, { img: IMG1 }];
   const sieviesuIMG2 = [{ img: IMG3 }, { img: IMG5 }, { img: IMG4 }];
 
   return (
     <div className="flex justify-center items-center w-full h-full flex-col mx-5">
       <div className="flex my-6 text-[30px]">
-        <h2>SIEVEŠU FOTO</h2>
+      <h2> {language ? <>SIEVIEŠU FOTO </> : <>ЖЕНСКИЕ ФОТО</> } </h2>
       </div>
       <div className="flex justify-center items-center gap-5 mb-5 mx-5 ">
         {sieviesuIMG1.map((item) => (

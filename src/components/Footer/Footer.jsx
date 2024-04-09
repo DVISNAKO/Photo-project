@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiTiktokLine } from "react-icons/ri";
+import { LanguageState } from "../../utils/context";
 
 const Footer = () => {
+  const [language, setLanguage] = useContext(LanguageState);
   return (
     <div className="w-full flex justify-center items-center text-[25px] mt-auto h-20 bg-gradient-to-r from-rose-300 to-pink-500">
-      <h2>Social media: </h2>
+      <h2> {language ? <>SOCIĀLI TĪKLI </> : <>СОЦ. СЕТИ:</> } </h2>
       <div className="flex gap-1 ml-3 cursor-pointer">
         <div className="hover:bg-slate-400 rounded-xl p-3">
           <a
@@ -18,7 +20,6 @@ const Footer = () => {
         </div>
         <div className="hover:bg-slate-400 rounded-xl p-3">
           <a target="_blank" href="https://t.me/lainevolcite">
-            {" "}
             <FaTelegramPlane />
           </a>
         </div>
