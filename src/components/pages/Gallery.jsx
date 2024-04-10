@@ -17,7 +17,7 @@ const Gallery = () => {
         >
           <Link to={item.route}>
             <img
-              className="flex justify-center items-center object-cover max-h-[600px] max-w-[500px]"
+              className="flex justify-center items-center object-cover h-[500px] min-w-[350px] "
               src={item.img}
             />
             <h2 className="flex justify-center mt-5">
