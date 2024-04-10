@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { LanguageState } from "../../utils/context";
+import './Button.css';
 
 const singlePrice = ({ packageData }) => {
   const { title, idea, time, curruncy, gift, price, img1, img2, titleRus, ideaRus } = packageData;
@@ -41,6 +42,12 @@ const singlePrice = ({ packageData }) => {
           </>
         )}
       </div>
+      <div className="flex justify-center text-center mt-5">  <h2 className="BtnAnimation w-[200px] m-2 border-2 p-3 rounded-xl hover:bg-slate-400 bg-rose-300 ">
+          <a target="_blank" href="https://t.me/lainevolcite">
+          {language ? <>Saziņai telegramā</> : <>Написать в телеграм</> }
+          </a>
+        </h2></div>
+    
       <hr className="my-4 h-0,5 bg-slate-200" />
     </>
   );

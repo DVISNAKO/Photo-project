@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { LanguageState } from "../../utils/context";
+import './Button.css';
 
 const ButtonBack = () => {
     const [language, setLanguage] = useContext(LanguageState);

@@ -1,0 +1,14 @@
+@keyframes BtnAnimation{
+    0% { border: 3px solid pink;
+    }
+    50% {border: 3px solid red;
+    }
+    100% { border: 3px solid pink;
+    }
+}
+
+.BtnAnimation{
+    animation-name: BtnAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
