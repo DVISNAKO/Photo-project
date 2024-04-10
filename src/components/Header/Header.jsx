@@ -79,11 +79,11 @@ const Header = ({ language, toggleLanguage }) => {
             <Link
               to={ROUTES.SASNIEGUMI}
               className={`mr-2 hover:underline underline-offset-1 ${
-                activeMenu === "ДОСТЯЖЕНИЯ" ? "text-pink-200" : ""
+                activeMenu === "ДОСТИЖЕНИЯ" ? "text-pink-200" : ""
               } `}
-              onClick={() => handleMenuClick("ДОСТЯЖЕНИЯ")}
+              onClick={() => handleMenuClick("ДОСТИЖЕНИЯ")}
             >
-              ДОСТЯЖЕНИЯ
+              ДОСТИЖЕНИЯ
             </Link>
             <button onClick={toggleLanguage}>LV</button>
           </div>

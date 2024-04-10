@@ -17,7 +17,7 @@ export const packageData = [
       idea: "ideja",
       time: "~2h",
       curruncy: "15 fotogrāfijas",
-      price: "60€",
+      price: "50€",
       img1: PRICE1,
       img2: PRICE2,
     },
@@ -48,7 +48,7 @@ export const packageData = [
     { title: "ОБО МНЕ", id: 2 },
     { title: "ЦЕНЫ", id: 3 },
     { title: "КОНТАКТЫ", id: 4 },
-    { title: "ДОСТЯЖЕНИЯ", id: 5 },
+    { title: "ДОСТИЖЕНИЯ", id: 5 },
   ]
 
   //вывод на страницу галереи

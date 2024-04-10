@@ -7,6 +7,7 @@ import { LanguageState } from "../../utils/context";
 const Gallery = () => {
   const [language, setLanguage] = useContext(LanguageState);
 
+
   return (
     <div className="flex justify-center items-center h-full my-10 flex-wrap gap-5 mx-10 border-black">
       {galeryData.map((item) => (
