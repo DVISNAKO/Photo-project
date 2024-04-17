@@ -14,21 +14,21 @@ import Man from "../pages/GalerryPages/Man";
 import Sasniegumi from '../pages/Sasniegumi'
 import Love from "../pages/GalerryPages/Love";
 
-const AppRoutes = () => {
+const AppRoutes = ({blockPhoto}) => {
   return (
     <div className="flex w-full justify-center">
       <Routes>
-        <Route path={ROUTES.GALERIJA} index element={<Gallery />} />
-        <Route path={ROUTES.PAR_MANI} element={<About />} />
-        <Route path={ROUTES.CENAS} element={<Price />} />
-        <Route path={ROUTES.KONTAKTI} element={<Contacts />} />
-        <Route path={ROUTES.SASNIEGUMI} element={<Sasniegumi />} />
-        <Route path={ROUTES.SIEVIEŠU} element={<Sievesu />} />
-        <Route path={ROUTES.GRUPAS} element={<Grupas />} />
-        <Route path={ROUTES.DZIVNIEKI} element={<Dzivnieki/>} />
-        <Route path={ROUTES.PASAKUMI} element={<Pasakumi/>} />
-        <Route path={ROUTES.VIRIESI} element={<Man/>} />
-        <Route path={ROUTES.LOVE} element={<Love/>} />
+        <Route path={ROUTES.GALERIJA} index element={<Gallery blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.PAR_MANI} element={<About blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.CENAS} element={<Price blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.KONTAKTI} element={<Contacts blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.SASNIEGUMI} element={<Sasniegumi blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.SIEVIEŠU} element={<Sievesu blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.GRUPAS} element={<Grupas blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.DZIVNIEKI} element={<Dzivnieki blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.PASAKUMI} element={<Pasakumi blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.VIRIESI} element={<Man blockPhoto={blockPhoto}/>} />
+        <Route path={ROUTES.LOVE} element={<Love blockPhoto={blockPhoto}/>} />
         <Route path="*" element={<Navigate to={ROUTES.GALERIJA} />} />
       </Routes>
     </div>

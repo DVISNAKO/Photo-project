@@ -10,7 +10,7 @@ import IMG6 from "../images/dzivnieki/d6.jpeg";
 import ButtonBack from "../../ButtonBack/ButtonBack";
 import { LanguageState } from "../../../utils/context";
 
-const Dzivnieki = () => {
+const Dzivnieki = ({blockPhoto}) => {
     const [language, setLanguage] = useContext(LanguageState);
   const dzivniekiImG1 = [{ img: IMG2 }, { img: IMG6 }, { img: IMG5 }];
   const dzivniekiImG2 = [{ img: IMG1 }, { img: IMG4 }, { img: IMG3 }];
@@ -25,6 +25,7 @@ const Dzivnieki = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[335px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>
@@ -33,6 +34,7 @@ const Dzivnieki = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>

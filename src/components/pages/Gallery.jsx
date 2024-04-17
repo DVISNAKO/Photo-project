@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { galeryData } from "../../utils/constants";
 import { LanguageState } from "../../utils/context";
 
-const Gallery = () => {
+const Gallery = ({blockPhoto}) => {
   const [language, setLanguage] = useContext(LanguageState);
 
 
@@ -19,6 +19,7 @@ const Gallery = () => {
             <img
               className="flex justify-center items-center object-cover h-[500px] min-w-[350px] "
               src={item.img}
+              onContextMenu={blockPhoto}
             />
             <h2 className="flex justify-center mt-5">
               {language ? item.title : item.titleRus}

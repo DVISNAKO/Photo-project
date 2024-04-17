@@ -10,7 +10,7 @@ import IMG4 from "../images/love/lo4.jpeg";
 import IMG5 from "../images/love/lo5.jpeg";
 import IMG6 from "../images/love/lo6.jpeg";
 
-const Love = () => {
+const Love = ({blockPhoto}) => {
   const loveImG1 = [{ img: IMG4 }, { img: IMG5 }, { img: IMG6 }];
   const loveImG2 = [{ img: IMG1 }, { img: IMG2 }, { img: IMG3 }];
   const [language, setLanguage] = useContext(LanguageState);
@@ -25,6 +25,7 @@ const Love = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[335px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>
@@ -33,6 +34,7 @@ const Love = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>

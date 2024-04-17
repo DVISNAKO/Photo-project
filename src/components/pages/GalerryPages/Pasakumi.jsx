@@ -10,7 +10,7 @@ import IMG4 from "../images/pasakumi/p4.jpeg";
 import IMG5 from "../images/pasakumi/p5.jpeg";
 import IMG6 from "../images/pasakumi/p6.jpeg";
 
-const Pasakumi = () => {
+const Pasakumi = ({blockPhoto}) => {
     const [language, setLanguage] = useContext(LanguageState);
   const pasakumiIMG1 = [{ img: IMG1 }, { img: IMG2 }, { img: IMG3 }];
   const pasakumiIMG2 = [{ img: IMG4 }, { img: IMG5 }, { img: IMG6 }];
@@ -25,6 +25,7 @@ const Pasakumi = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>
@@ -33,6 +34,7 @@ const Pasakumi = () => {
           <img
             className="w-1/3 max-h-[400px] max-w-[350px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>

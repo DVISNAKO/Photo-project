@@ -10,7 +10,7 @@ import IMG4 from "../images/grupas/g4.jpeg";
 import IMG5 from "../images/grupas/g5.jpeg";
 import IMG6 from "../images/grupas/g6.jpeg";
 
-const Grupas = () => {
+const Grupas = ({blockPhoto}) => {
     const [language, setLanguage] = useContext(LanguageState);
   const grupasImg1 = [{ img: IMG1 }, { img: IMG2 }, { img: IMG3 }];
   const grupasImg2 = [{ img: IMG4 }, { img: IMG5 }, { img: IMG6 }];
@@ -25,6 +25,7 @@ const Grupas = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>
@@ -33,6 +34,7 @@ const Grupas = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>

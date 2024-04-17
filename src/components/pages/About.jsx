@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { LanguageState } from "../../utils/context";
 import IMG from "../pages/images/About/about.jpeg";
 
-const About = () => {
+const About = ({blockPhoto}) => {
   const [language, setLanguage] = useContext(LanguageState);
 
   return (
@@ -42,6 +42,7 @@ const About = () => {
         <img
           className="h-[400px] min-w-[450px] object-cover hover:translate-y-2"
           src={IMG}
+          onContextMenu={blockPhoto}
         />
       </div>
     </div>

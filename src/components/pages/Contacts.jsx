@@ -4,7 +4,7 @@ import { RiTiktokLine } from "react-icons/ri";
 import { LanguageState } from "../../utils/context";
 import IMG from './images/About/contact.jpeg'
 
-const Contacts = () => {
+const Contacts = ({blockPhoto}) => {
   const [language, setLanguage] = useContext(LanguageState);
   return (
     <div className="es:flex-col md:flex-row flex justify-center items-center my-10 w-screen gap-10">
@@ -45,6 +45,7 @@ const Contacts = () => {
         <img
           className="max-h-[600px] max-w-[500px] object-cover hover:translate-y-2"
           src={IMG}
+          onContextMenu={blockPhoto}
         />
       </div>
     </div>

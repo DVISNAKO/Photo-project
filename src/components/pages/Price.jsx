@@ -3,11 +3,11 @@ import SinglePrice from "../SinglePage/SinglePrice";
 import { packageData } from "../../utils/constants";
 
 
-const Price = () => {
+const Price = ({blockPhoto}) => {
   return (
     <div>
       {packageData.map((packageData, index) => (
-        <SinglePrice key={index} packageData={packageData} />
+        <SinglePrice key={index} packageData={packageData} blockPhoto={blockPhoto} />
       ))}
     </div>
   );

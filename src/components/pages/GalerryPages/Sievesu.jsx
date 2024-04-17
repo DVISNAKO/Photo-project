@@ -10,7 +10,7 @@ import IMG4 from "../images/sieviesu/siev4.jpeg";
 import IMG5 from "../images/sieviesu/siev5.jpeg";
 import IMG6 from "../images/sieviesu/siev6.jpeg";
 
-const Sievesu = () => {
+const Sievesu = ({blockPhoto}) => {
   const [language, setLanguage] = useContext(LanguageState);
   const sieviesuIMG1 = [{ img: IMG6 }, { img: IMG2 }, { img: IMG1 }];
   const sieviesuIMG2 = [{ img: IMG3 }, { img: IMG5 }, { img: IMG4 }];
@@ -25,6 +25,7 @@ const Sievesu = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>
@@ -33,6 +34,7 @@ const Sievesu = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>

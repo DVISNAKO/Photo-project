@@ -17,13 +17,17 @@ function App() {
     localStorage.setItem("languageStatus", JSON.stringify(language));
   };
 
+  const blockPhoto = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <BrowserRouter>
       <LanguageState.Provider value={[language, setLanguage]}>
         <div className="flex flex-col h-screen">
           <div>
             <Header language={language} toggleLanguage={toggleLanguage} />
-            <AppRoutes />
+            <AppRoutes blockPhoto={blockPhoto}/>
           </div>
           <Footer />
         </div>

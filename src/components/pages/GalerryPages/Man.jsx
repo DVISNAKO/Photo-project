@@ -10,7 +10,7 @@ import IMG6 from "../images/viriesi/m6.jpeg";
 import ButtonBack from "../../ButtonBack/ButtonBack";
 import { LanguageState } from "../../../utils/context";
 
-const Man = () => {
+const Man = ({blockPhoto}) => {
     const [language, setLanguage] = useContext(LanguageState);
   const virisuIMG1 = [{ img: IMG2 }, { img: IMG5 }, { img: IMG6 }];
   const virisuIMG2 = [{ img: IMG3 }, { img: IMG4 }, { img: IMG1 }];
@@ -25,6 +25,7 @@ const Man = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>
@@ -33,6 +34,7 @@ const Man = () => {
           <img
             className="w-1/3 max-h-[500px] max-w-[400px] object-cover hover:translate-y-2"
             src={item.img}
+            onContextMenu={blockPhoto}
           />
         ))}
       </div>

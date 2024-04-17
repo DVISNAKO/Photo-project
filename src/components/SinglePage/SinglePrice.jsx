@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { LanguageState } from "../../utils/context";
 import "./Button.css";
 
-const singlePrice = ({ packageData }) => {
+const singlePrice = ({ packageData, blockPhoto}) => {
   const {
     title,
     idea,
@@ -19,6 +19,7 @@ const singlePrice = ({ packageData }) => {
     curruncyRus,
     priceRU,
   } = packageData;
+
   const [language, setLanguage] = useContext(LanguageState);
 
   return (
@@ -29,10 +30,12 @@ const singlePrice = ({ packageData }) => {
           <img
             className="w-1/2 max-h-[400px] max-w-[300px] object-cover hover:translate-y-2"
             src={img1}
+            onContextMenu={blockPhoto}
           />
           <img
             className="w-1/2 max-h-[400px] max-w-[300px] object-cover hover:translate-y-2"
             src={img2}
+            onContextMenu={blockPhoto}
           />
         </div>
       </div>
