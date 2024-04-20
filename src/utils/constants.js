@@ -80,7 +80,7 @@ export const packageData = [
 export const menu = [
   { title: "GALERIJA", id: 1 },
   { title: "PAR_MANI", id: 2 },
-  { title: "CENAS", id: 3 },
+//   { title: "CENAS", id: 3 },
   { title: "KONTAKTI", id: 4 },
   { title: "SASNIEGUMI", id: 5 },
 ];
@@ -88,7 +88,7 @@ export const menu = [
 export const menuRUS = [
   { title: "ГАЛЕРЕЯ", id: 1 },
   { title: "ОБО МНЕ", id: 2 },
-  { title: "ЦЕНЫ", id: 3 },
+//   { title: "ЦЕНЫ", id: 3 },
   { title: "КОНТАКТЫ", id: 4 },
   { title: "ДОСТИЖЕНИЯ", id: 5 },
 ];
