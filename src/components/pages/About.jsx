@@ -38,7 +38,7 @@ const About = ({blockPhoto}) => {
           </>
         )}
       </div>
-      <div className="es:mt-10 md:mr-5 w-1/2 flex justify-center flex-col items-center">
+      <div className="es:mt-20 md:mr-5 w-1/2 flex justify-center flex-col items-center">
         <img
           className="h-[400px] min-w-[450px] object-cover hover:translate-y-2"
           src={IMG}

@@ -144,7 +144,7 @@ const Header = ({ language, toggleLanguage }) => {
                     >
                       ОБО МНЕ
                     </Link>
-                    <Link
+                    {/* <Link
                       to={ROUTES.CENAS}
                       className={`mr-2 hover:underline underline-offset-1 ${
                         activeMenu === "ЦЕНЫ" ? "text-pink-200" : ""
@@ -152,7 +152,7 @@ const Header = ({ language, toggleLanguage }) => {
                       onClick={() => handleMenuClick("ЦЕНЫ")}
                     >
                       ЦЕНЫ
-                    </Link>
+                    </Link> */}
                     <Link
                       to={ROUTES.KONTAKTI}
                       className={`mr-2 hover:underline underline-offset-1 ${
