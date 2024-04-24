@@ -7,7 +7,7 @@ import { LanguageState } from "./utils/context";
 
 function App() {
   const [language, setLanguage] = useState(
-    JSON.parse(localStorage.getItem("languageStatus")) || false
+    JSON.parse(localStorage.getItem("languageStatus")) || true
   );
 
   const languageStatus = language;
