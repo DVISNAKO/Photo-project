@@ -1,8 +1,8 @@
-import IMG1 from "../components/pages/images/Gallery/ga1.jpeg";
+import IMG1 from "../components/pages/images/ILgu/ILGU0.jpeg";
 import IMG2 from "../components/pages/images/Gallery/ga2.jpeg";
 import IMG3 from "../components/pages/images/Gallery/ga3.jpeg";
 import IMG4 from "../components/pages/images/Gallery/ga4.jpeg";
-import IMG5 from "../components/pages/images/Gallery/ga5.jpeg";
+import IMG5 from "../components/pages/images/love2/loveS1.jpeg";
 import IMG6 from "../components/pages/images/Gallery/ga6.jpeg";
 import { ROUTES } from "../utils/routes";
 import PRICE1_1 from "../components/pages/images/Price/pa1.jpeg";
