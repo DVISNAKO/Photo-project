@@ -21,7 +21,7 @@ const Contacts = ({blockPhoto}) => {
         </h2>
         <hr className="h-1 w-20 m-3" />
         <h2 className="m-2 text-[25px]">
-        {language ? <>MANI SOCIĀLI TĪKLI </> : <>МОИ СОЦ. СЕТИ:</> }</h2>
+        {language ? <>MANI SOCIĀLIE TĪKLI </> : <>МОИ СОЦ. СЕТИ:</> }</h2>
         <div className="flex gap-1 ml-3 cursor-pointer">
           <div className="hover:bg-slate-400 rounded-xl p-3 text-[30px]">
             <a
